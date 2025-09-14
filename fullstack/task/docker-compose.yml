@@ -1,0 +1,47 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:15
+    container_name: exrates_db
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: dev
+    ports:
+      - "5430:5432"
+    volumes:
+      - dbdata:/var/lib/postgresql/data
+
+  server:
+    build:
+      context: ./packages/server
+      dockerfile: Dockerfile
+    container_name: exrates_server
+    environment:
+      DB_HOST: 127.0.0.1
+      DB_PORT: 5430
+      DB_USERNAME: postgres
+      DB_PASSWORD: postgres
+      DB_NAME: dev
+      PORT: 4001
+      NODE_ENV: development
+    depends_on:
+      - db
+    ports:
+      - "4001:4001"
+
+  client:
+    build:
+      context: ./packages/client
+      dockerfile: Dockerfile
+    container_name: exrates_client
+    environment:
+      VITE_GRAPHQL_URL: http://localhost:4001/graphql
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
+
+volumes:
+  dbdata:
