@@ -17,8 +17,7 @@
         "build": "yarn server:build && yarn client:build",
         "codecheck": "yarn nx run-many --target codecheck --all",
         "codecheck:fix": "yarn nx run-many --target codecheck --configuration fix --all",
-        "install:windows": "npm install -g yarn && yarn install",
-        "setup:windows": "yarn install:windows"
+        "install:windows": "npm install -g yarn && yarn install"
     },
     "dependencies": {
         "@types/jest": "28.1.8",

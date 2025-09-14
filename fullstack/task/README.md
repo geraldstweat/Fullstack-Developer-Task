@@ -68,7 +68,7 @@ This task demonstrates a complete fullstack development workflow with modern tec
 
 ### **Windows Setup:**
 ```bash
-yarn setup:windows
+yarn install:windows
 ```
 
 ### **Option 3: Demo Mode (No Database)**
