@@ -61,6 +61,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:28.1.3"],\
             ["nx", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:15.5.2"],\
             ["prettier", "npm:2.7.1"],\
+            ["react-feather", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:2.0.10"],\
             ["ts-jest", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:28.0.8"],\
             ["ts-node", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:10.9.2"],\
             ["tsconfig-paths", "npm:4.1.0"],\
@@ -5704,6 +5705,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:28.1.3"],\
             ["react", "npm:18.2.0"],\
             ["react-dom", "virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:18.2.0"],\
+            ["react-feather", "virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:2.0.10"],\
             ["react-is", "npm:18.2.0"],\
             ["styled-components", "virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:5.3.9"],\
             ["ts-jest", "virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:28.0.8"],\
@@ -6399,6 +6401,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:28.1.3"],\
             ["nx", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:15.5.2"],\
             ["prettier", "npm:2.7.1"],\
+            ["react-feather", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:2.0.10"],\
             ["ts-jest", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:28.0.8"],\
             ["ts-node", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:10.9.2"],\
             ["tsconfig-paths", "npm:4.1.0"],\
@@ -12117,6 +12120,43 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["loose-envify", "npm:1.4.0"],\
             ["react", "npm:18.2.0"],\
             ["scheduler", "npm:0.23.2"]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["react-feather", [\
+        ["npm:2.0.10", {\
+          "packageLocation": "./.yarn/cache/react-feather-npm-2.0.10-b035d9c822-75acb29ee4.zip/node_modules/react-feather/",\
+          "packageDependencies": [\
+            ["react-feather", "npm:2.0.10"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:2.0.10", {\
+          "packageLocation": "./.yarn/__virtual__/react-feather-virtual-f61982456a/0/cache/react-feather-npm-2.0.10-b035d9c822-75acb29ee4.zip/node_modules/react-feather/",\
+          "packageDependencies": [\
+            ["react-feather", "virtual:1ec6bbce6411356af0e61edb1d749eb23240754bec243d46396f02a932d79ee31d4790ee306684c31a5fb9ad347566edc5fdf2d73c65f0cc02ea6d22f65fa5f7#npm:2.0.10"],\
+            ["@types/react", null],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", null]\
+          ],\
+          "packagePeers": [\
+            "@types/react",\
+            "react"\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:2.0.10", {\
+          "packageLocation": "./.yarn/__virtual__/react-feather-virtual-3e788e558e/0/cache/react-feather-npm-2.0.10-b035d9c822-75acb29ee4.zip/node_modules/react-feather/",\
+          "packageDependencies": [\
+            ["react-feather", "virtual:658502eb4296e93abedc18b6aa9b26978f434f08d98e21ebb0e725354b8bb54b62db9c4a1893e460c694ff7500ff5cbafa4457b0dfd26b5838868666c861e990#npm:2.0.10"],\
+            ["@types/react", "npm:18.0.17"],\
+            ["prop-types", "npm:15.8.1"],\
+            ["react", "npm:18.2.0"]\
           ],\
           "packagePeers": [\
             "@types/react",\

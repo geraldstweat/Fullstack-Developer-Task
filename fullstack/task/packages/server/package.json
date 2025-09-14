@@ -10,7 +10,8 @@
         "start": "cross-env NODE_ENV=development nest start --debug 0.0.0.0 --watch",
         "start:prod": "node dist/main",
         "start:windows": "cross-env NODE_ENV=development nest start --debug 0.0.0.0 --watch",
-        "migration": "powershell -ExecutionPolicy Bypass -File scripts/db-create.ps1 && typeorm-ts-node-commonjs migration:run -d ./src/config/typeorm/data-source.ts"
+        "db-create": "powershell -ExecutionPolicy Bypass -File scripts/db-create.ps1",
+        "migration": "typeorm-ts-node-commonjs migration:run -d ./src/config/typeorm/data-source.ts"
     },
     "dependencies": {
         "@nestjs/apollo": "10.1.3",

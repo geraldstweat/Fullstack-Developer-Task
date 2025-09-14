@@ -8,6 +8,8 @@
         "server": "yarn nx run --project server",
         "client": "yarn nx run --project client",
         "server:start": "yarn nx run --project server start",
+        "server:db-create": "cd packages/server && yarn db-create",
+        "server:migration": "cd packages/server && yarn migration",
         "client:start": "yarn nx run --project client start",
         "server:build": "yarn nx run --project server build",
         "client:build": "yarn nx run --project client build",
@@ -16,7 +18,7 @@
         "codecheck": "yarn nx run-many --target codecheck --all",
         "codecheck:fix": "yarn nx run-many --target codecheck --configuration fix --all",
         "install:windows": "npm install -g yarn && yarn install",
-        "setup:windows": "yarn install:windows && cd packages/server && yarn migration"
+        "setup:windows": "yarn install:windows"
     },
     "dependencies": {
         "@types/jest": "28.1.8",

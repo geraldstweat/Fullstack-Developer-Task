@@ -88,8 +88,8 @@ yarn codecheck:fix            # Fix linting issues
 
 ### **Database Commands:**
 ```bash
-cd packages/server
-yarn migration
+yarn server:db-create
+yarn server:migration
 ```
 
 ## 🌐 **API ENDPOINTS**
